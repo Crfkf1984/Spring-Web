@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-YUOR TODO ADD : ${nameVip} ${descriptionVip}
+YUOR TODO ADD : ${Todo.name} ${Todo.descriptoin}
 </body>
 </html>

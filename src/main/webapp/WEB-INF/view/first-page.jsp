@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <html>
 <head>
@@ -6,14 +7,14 @@
 <body>
 <h2>Hello My Frend!!!!</h2>
 <br>
-<form action="todoInfo" method="post"/>
-    <input type="text" name="nametodo" placeholder="Enter yuor name todo" required/>
+<form:form action="todoInfo" modelAttribute="Todo">
+    Name :<form:input path="name"/>
 <br>
 <br>
-    <input type="text" name="description" placeholder="Enter yuor descriptoins" required/>
+    Description : <form:input path="descriptoin"/>
 <br>
 <br>
     <input type="submit" value="ENTER">
-</form>
+</form:form>
 </body>
 </html>
