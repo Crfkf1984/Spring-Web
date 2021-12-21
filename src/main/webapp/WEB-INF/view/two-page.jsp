@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-YUOR TODO ADD : ${param.nametodo} ${param.description}
+YUOR TODO ADD : ${nameVip} ${descriptionVip}
 </body>
 </html>

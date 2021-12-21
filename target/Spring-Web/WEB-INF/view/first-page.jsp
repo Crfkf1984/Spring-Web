@@ -4,7 +4,9 @@
     <title>Hello my Frend</title>
 </head>
 <body>
-<form action="todoInfo" method="get"/>
+<h2>Hello My Frend!!!!</h2>
+<br>
+<form action="todoInfo" method="post"/>
     <input type="text" name="nametodo" placeholder="Enter yuor name todo" required/>
 <br>
 <br>
