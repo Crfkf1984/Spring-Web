@@ -9,6 +9,9 @@
 <br>
 <form:form action="Info" modelAttribute="Todo">
     Name :<form:input path="name"/>
+    <br>
+    <br>
+    Urowen wajnosti : <form:input path="urowen"/>
 <br>
 <br>
     Description : <form:input path="descriptoin"/>
