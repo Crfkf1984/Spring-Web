@@ -7,7 +7,7 @@
 <body>
 <h2>Hello My Frend!!!!</h2>
 <br>
-<form:form action="todoInfo" modelAttribute="Todo">
+<form:form action="Info" modelAttribute="Todo">
     Name :<form:input path="name"/>
 <br>
 <br>
