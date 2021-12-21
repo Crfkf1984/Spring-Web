@@ -4,8 +4,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-    @RequestMapping("/info")
+    @RequestMapping("/home")
     public String getInfo() {
-        return "info-test";
+        return "first-page";
+    }
+
+    @RequestMapping("/todoInfo")
+    public String getTodo() {
+        return "two-page";
     }
 }
