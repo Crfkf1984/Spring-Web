@@ -1,9 +1,11 @@
 package org.example;
 
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.validation.Valid;
 
 @org.springframework.stereotype.Controller
 @RequestMapping("/todo")
@@ -15,9 +17,11 @@ public class Controller {
     }
 
     @RequestMapping("/Info")
-    public String getTodo(@ModelAttribute("Todo") Todo todoModel) {
-         todoModel.setName(todoModel.getName() + " VIP!");
-         todoModel.setDescriptoin(todoModel.getDescriptoin() + " VIP!");
+    public String getTodo(@Valid @ModelAttribute("Todo") Todo todoModel, BindingResult result) {
+        if (result.hasErrors()) {
+            return "first-page";
+        }
+
         return "two-page";
     }
 }
