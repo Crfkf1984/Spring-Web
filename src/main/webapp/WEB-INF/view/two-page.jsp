@@ -6,7 +6,10 @@
     <title>Title</title>
 </head>
 <body>
-YUOR TODO ADD : ${Todo.name} ${Todo.descriptoin}
+YUOR TODO ADD : ${Todo.name}
+<br>
+<br>
+Description : ${Todo.descriptoin}
 <br>
 <br>
 Urowen : ${Todo.urowen}

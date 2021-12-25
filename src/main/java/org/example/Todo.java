@@ -1,5 +1,6 @@
 package org.example;
 
+import annotation.ValidationEmail;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,13 +14,13 @@ import javax.validation.constraints.Size;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Todo {
-    @Size(min = 12, max = 140, message = " YUor need input min 12 max 140")
+    @Size(min = 12, max = 140, message = " Your need input min 12 max 140")
     private String name;
-    @NotBlank(message = "Not null")
+    @NotBlank(message = "Field Not null")
     private String descriptoin;
-   @NotBlank(message = "Not null")
+   @NotBlank(message = "Field Not null")
     private String urowen;
-   @Email(regexp = ".+@.+\\..+", message = "")
+   @ValidationEmail(value = "abc", message = "Must startWiht abc")
     private String email;
 
 }
