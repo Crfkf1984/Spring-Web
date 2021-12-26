@@ -12,7 +12,11 @@
     <form:errors path="name"/>
     <br>
     <br>
-    Urowen wajnosti : <form:input path="urowen"/>
+    Urowen wajnosti : <form:select path="urowen">
+    <form:option value="Hight"/>
+    <form:option value="middle"/>
+    <form:option value="low"/>
+</form:select>
     <form:errors path="urowen"/>
 <br>
 <br>

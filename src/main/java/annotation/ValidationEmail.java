@@ -12,11 +12,12 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = CheckEmail.class)
 public @interface ValidationEmail {
 
-    String value() default ".com";
+    String value() default "abc";
 
-   String message() default "email must on .com";
+    String message() default "email must on abc";
 
-   public Class<?>[] groups() default {};
-   public Class<? extends Payload> [] payload() default {};
+    public Class<?>[] groups() default {};
+
+    public Class<? extends Payload>[] payload() default {};
 
 }

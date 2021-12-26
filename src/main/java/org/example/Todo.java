@@ -18,9 +18,9 @@ public class Todo {
     private String name;
     @NotBlank(message = "Field Not null")
     private String descriptoin;
-   @NotBlank(message = "Field Not null")
+    @NotBlank(message = "Field Not null")
     private String urowen;
-   @ValidationEmail(value = "abc", message = "Must startWiht abc")
+    @ValidationEmail
     private String email;
 
 }
