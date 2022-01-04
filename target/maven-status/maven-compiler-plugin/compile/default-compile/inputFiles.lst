@@ -1,2 +1,8 @@
-C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\Controller.java
-C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\Todo.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\annotation\ValidationEmail.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\service\Service.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\dao\TodoDao.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\controller\Controller.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\entity\Todo.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\annotation\CheckEmail.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\dao\TodoDaoImpl.java
+C:\Users\Сергей\IdeaProjects\Spring-Web\src\main\java\org\example\service\ServiceImpl.java

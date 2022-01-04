@@ -1,4 +1,8 @@
-org\example\Todo.class
+org\example\entity\Todo.class
 annotation\ValidationEmail.class
+org\example\controller\Controller.class
 annotation\CheckEmail.class
-org\example\Controller.class
+org\example\dao\TodoDaoImpl.class
+org\example\service\Service.class
+org\example\dao\TodoDao.class
+org\example\service\ServiceImpl.class
